@@ -1,0 +1,28 @@
+{
+    "name": "opennova",
+    "version": "1.0.0",
+    "description": "Advanced Minecraft bot with comprehensive features",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js"
+    },
+    "keywords": [
+        "minecraft",
+        "bot",
+        "mineflayer"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "mineflayer": "latest",
+        "mineflayer-pathfinder": "latest",
+        "mineflayer-pvp": "latest",
+        "mineflayer-auto-eat": "latest",
+        "mineflayer-armor-manager": "latest",
+        "mineflayer-collectblock": "latest",
+        "mineflayer-tool": "latest",
+        "minecraft-data": "latest",
+        "vec3": "latest"
+    }
+}

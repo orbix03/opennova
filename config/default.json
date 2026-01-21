@@ -1,0 +1,32 @@
+{
+    "bot": {
+        "username": "opennova",
+        "auth": "offline",
+        "host": "localhost",
+        "port": 25565,
+        "version": "1.21.8"
+    },
+    "settings": {
+        "commandPrefix": "!",
+        "owner": "",
+        "autoReconnect": true,
+        "reconnectDelay": 5000,
+        "maxReconnectAttempts": 10
+    },
+    "features": {
+        "autoEat": true,
+        "autoArmor": true,
+        "webViewer": false,
+        "viewerPort": 3000
+    },
+    "combat": {
+        "attackRange": 3,
+        "fleeHealthThreshold": 6,
+        "targetHostileMobs": true
+    },
+    "mining": {
+        "placeTorches": true,
+        "torchLightLevel": 7,
+        "avoidLava": true
+    }
+}

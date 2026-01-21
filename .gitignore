@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Personal data files
+data/memory.json
+data/chests.json
+data/waypoints.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
